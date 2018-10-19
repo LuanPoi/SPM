@@ -1,0 +1,8 @@
+﻿  CPU.cpp
+  Emachine.cpp
+  Loader.cpp
+  Main.cpp
+  Memory.cpp
+  Gerando Código...
+Emachine.obj : error LNK2001: símbolos externos indefinidos "private: static class Emachine * Emachine::instance" (?instance@Emachine@@0PAV1@A)
+C:\Users\Andromeda\source\repos\SPM\Debug\SPM.exe : fatal error LNK1120: 1 externo não resolvidos
