@@ -1,8 +1,10 @@
 ﻿  CPU.cpp
+c:\users\andromeda\documents\github\spm\spm\cpu.h(9): error C2371: 'WORD': redefinição; tipos básicos diferentes
+  c:\users\andromeda\documents\github\spm\spm\memory.h(8): note: consulte a declaração de 'WORD'
   Emachine.cpp
-  Loader.cpp
+c:\users\andromeda\documents\github\spm\spm\cpu.h(9): error C2371: 'WORD': redefinição; tipos básicos diferentes
+  c:\users\andromeda\documents\github\spm\spm\memory.h(8): note: consulte a declaração de 'WORD'
   Main.cpp
-  Memory.cpp
+c:\users\andromeda\documents\github\spm\spm\cpu.h(9): error C2371: 'WORD': redefinição; tipos básicos diferentes
+  c:\users\andromeda\documents\github\spm\spm\memory.h(8): note: consulte a declaração de 'WORD'
   Gerando Código...
-Emachine.obj : error LNK2001: símbolos externos indefinidos "private: static class Emachine * Emachine::instance" (?instance@Emachine@@0PAV1@A)
-C:\Users\Andromeda\source\repos\SPM\Debug\SPM.exe : fatal error LNK1120: 1 externo não resolvidos

@@ -117,13 +117,11 @@
   <ItemGroup>
     <ClInclude Include="CPU.h" />
     <ClInclude Include="Emachine.h" />
-    <ClInclude Include="Loader.h" />
     <ClInclude Include="Memory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPU.cpp" />
     <ClCompile Include="Emachine.cpp" />
-    <ClCompile Include="Loader.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Memory.cpp" />
   </ItemGroup>

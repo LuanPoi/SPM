@@ -1,11 +1,10 @@
+#include <string>
 #include "Emachine.h"
 #include "CPU.h"
-#include "Loader.h"
-#include "Memory.h"
-
 
 Emachine::Emachine()
 {
+	instanceCPU = new CPU();
 }
 
 
@@ -19,3 +18,4 @@ Emachine* Emachine::getInstance() {
 	}
 	return instance;
 }
+

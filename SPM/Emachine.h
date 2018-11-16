@@ -1,18 +1,16 @@
 #pragma once
 #include "CPU.h"
-#include "Loader.h"
-#include "Memory.h"
+
+using namespace std;
 
 class Emachine
 {
 private:
 	static Emachine* instance;
-	CPU instanceCPU;
-	Loader instanceLoader;
-	Memory instanceMemory;
 	Emachine();
 
 public:
 	static Emachine* getInstance();
+	CPU *instanceCPU;
 	~Emachine();
 };
